@@ -1,9 +1,105 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "1",
+      "username": "asimg",
+      "password": "asim2002",
+      "email": "asim@gmail.com",
+      "profileImg": "https://images.unsplash.com/photo-1623230590824-f39e31a0a608?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwYm95fGVufDB8fDB8fHww",
+      "balance": 1000,
+      "role": "client",
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "basketItems": []
+    },
+    {
+      "id": "2",
+      "username": "mafipiri",
+      "password": "meftun2003",
+      "email": "meftun@gmail.com",
+      "profileImg": "https://images.unsplash.com/photo-1623230590824-f39e31a0a608?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwYm95fGVufDB8fDB8fHww",
+      "balance": 500,
+      "role": "client",
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "basketItems": []
+    },
+    {
+      "id": "3",
+      "username": "nijat5",
+      "password": "yaxshi2004",
+      "email": "nijattt5@gmail.com",
+      "profileImg": "https://images.unsplash.com/photo-1623230590824-f39e31a0a608?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwYm95fGVufDB8fDB8fHww",
+      "balance": 5000,
+      "role": "admin",
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "basketItems": []
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "products": [
+    {
+      "id": "1",
+      "name": "Books ",
+      "salePrice": 50,
+      "costPrice": 40,
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "imgSrc": "https://dictionary.cambridge.org/images/thumb/book_noun_001_01679.jpg?version=6.0.11",
+      "discountPercentage": 20,
+      "description": "A book is a medium for recording information in the form of writing or images. Books are typically composed of many pages, bound together and protected by a cover.[1] Modern bound books were preceded by many other written mediums, such as the codex and the scroll. The book publishing process is the series of steps involved in their creation and dissemination.",
+      "categoryId": "1",
+      "stockCount": 120
+    },
+    {
+      "id": "2",
+      "name": "Jeans",
+      "salePrice": 78,
+      "costPrice": 60,
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "imgSrc": "https://images.jackjones.com/12202489/3796886/001/jackjones-jjieddiejjoriginalcj911pcwloosefitjeans-blue.jpg?v=3fdfa81383ff7fcdc5e78abdb8e8674a&format=webp&width=1280&quality=90&key=25-0-3",
+      "discountPercentage": 65,
+      "description": "Jeans are a type of pants or trousers made from denim or dungaree cloth. Often the term jeans refers to a particular style of trousers, called blue jeans, with the addition of copper pocket rivets added by Jacob W. Davis in 1871[1] and patented by Davis and Levi Strauss on May 20, 1873. Prior to the patent, the term blue jeans had been long in use for",
+      "categoryId": "1",
+      "stockCount": 120
+    },
+    {
+      "id": "3",
+      "name": "T-shirt",
+      "salePrice": 45,
+      "costPrice": 30,
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "imgSrc": "https://www.mrporter.com/variants/images/3633577411310824/in/w2000_q60.jpg",
+      "discountPercentage": 20,
+      "description": "A T-shirt (also spelled tee shirt, or tee for short) is a style of fabric shirt named after the T shape of its body and sleeves. Traditionally, it has short sleeves and a round neckline, known as a crew neck, which lacks a collar. T-shirts are generally made of stretchy, light, and inexpensive fabric and are easy to clean. The T-shirt evolved from undergarments.",
+      "categoryId": "3",
+      "stockCount": 120
+    }
   ],
-  "profile": { "name": "typicode" }
+  "messages": [
+    {
+      "fullName": "Asim Quliyev",
+      "email": "asim@gmail.com",
+      "title": "Salam sizden sikayetim var",
+      "message": "Sikayetim mehsulunuzun keyfiyyeti ile baglidi cox pisdir keyfiyyeti",
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "id": "0bbe"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "1",
+      "totalPrice": 200,
+      "createdAt": "2024-05-09T23:20:21+04:00",
+      "items": [
+        {
+          "productId": "1",
+          "count": 2
+        }
+      ],
+      "id": "415e"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "men"
+    }
+  ]
 }
